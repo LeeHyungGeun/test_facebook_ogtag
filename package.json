@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/LeeHyungGeun/test_facebook_ogtag#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "express-metatag": "^0.1.0"
   }
 }
