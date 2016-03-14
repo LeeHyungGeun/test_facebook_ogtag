@@ -9,7 +9,8 @@ app.use(OG([{
   title: '仕事がはかどる 気持ちが伝わる - Works Mobile',
   description: 'いつでもどこでも、アプリひとつでメッセンジャーもメールもカレンダーが使えて仕事がはかどる。LINEスタンプで気持ちが伝わるビジネスコミュニケーションを。',
   image: 'https://www.worksmobile.com/img/ogtag/ogtag_jp.jpg',
-  locale: 'ja_JP'
+  locale: 'jp',
+  'locale:alternate': 'kr'
 }]));
 app.set('views', __dirname);
 app.engine('html', require('ejs').renderFile);
