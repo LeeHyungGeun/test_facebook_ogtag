@@ -11,10 +11,13 @@ app.use(OG([{
   image: 'https://www.worksmobile.com/img/ogtag/ogtag_jp.jpg',
   locale: 'ja_JP'
 }]));
+app.set('views', __dirname);
+app.engine('html', require('ejs').renderFile);
 
 app.get('/', function (req, res) {
   // console.log(req.headers);
-  console.log(req);
+  // console.log(req);
+  res.render('index.html');
   res.end();
 });
 
