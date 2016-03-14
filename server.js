@@ -29,7 +29,8 @@ app.engine('html', require('ejs').renderFile);
 
 app.get('/', function (req, res) {
   // console.log(req.headers);
-  console.log(req);
+  //console.log(req);
+  console.log(req.fb_locale);
   res.render('index.html');
   res.end();
 });
