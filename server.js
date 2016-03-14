@@ -10,8 +10,8 @@ var tags = {
     title: '仕事がはかどる 気持ちが伝わる - Works Mobile',
     description: 'いつでもどこでも、アプリひとつでメッセンジャーもメールもカレンダーが使えて仕事がはかどる。LINEスタンプで気持ちが伝わるビジネスコミュニケーションを。',
     image: 'https://www.worksmobile.com/img/ogtag/ogtag_jp.jpg',
-    locale: 'jp',
-    'locale:alternate': 'kr'
+    locale: 'ja_JP',
+    'locale:alternate': 'ko_KR'
   },
   kr: {
     url: 'https://www.worksmobile.com/kr/',
@@ -19,8 +19,8 @@ var tags = {
     title: '업무가 쉬워지는 협업도구, Works Mobile',
     description: '메시지, 이메일, 파일, 일정까지 모든 업무 커뮤니케이션을 한 곳에서 해결! Worksmobile과 함께하면 업무가 더 빠르고 부드러워 집니다',
     image: 'https://www.worksmobile.com/img/ogtag/ogtag_kr.jpg',
-    locale: 'kr',
-    'locale:alternate': 'jp'
+    locale: 'ko_KR',
+    'locale:alternate': 'ja_JP'
   }
 }
 app.use(OG([tags.kr]));
